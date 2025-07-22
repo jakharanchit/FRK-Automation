@@ -205,17 +205,6 @@ ORDER BY StartTime DESC;
 - **[Configuration Reference](docs/ConfigurationReference.md)** - Detailed parameter documentation
 - **[Job Reference](docs/JobReference.md)** - Complete job specifications and tuning guide
 
-## Version History
-
-### v9.2 (Current)
-- **Enhanced Compatibility**: Replaced STRING_AGG with FOR XML PATH for broader SQL Server version support
-- **Improved Logging**: Hardened job logging using SCOPE_IDENTITY() for reliable audit trail
-- **Bug Fixes**: Resolved dynamic SQL parsing errors in cleanup routines
-
-### v9.1
-- Added PowerShell-based CSV export functionality
-- Implemented comprehensive error handling with transaction rollback
-- Enhanced security with service account validation
 
 ## Contributing
 
